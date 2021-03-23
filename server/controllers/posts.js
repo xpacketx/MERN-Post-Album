@@ -36,7 +36,7 @@ export const updatePost = async (req, res) => {
     return res.status(404).send('No Post with that id!')
 
   } else {  
-    const updatedPost = await postMessage.findByIdAndUpdate(_id,
+    const updatedPost = await PostMessage.findByIdAndUpdate(_id,
       {...post, _id}, {new: true})
 
     res.json(updatedPost) 
@@ -52,7 +52,7 @@ export const deletePost = async (req, res) => {
     return res.status(404).send('No Post with that id!')
 
   } else {
-      await postMessage.findByIdAndRemove(id) 
+      await PostMessage.findByIdAndRemove(id) 
       res.json({message: 'Post deleted successfully'})
   }
   console.log('DELETE')
@@ -67,8 +67,8 @@ export const likePost = async (req, res) => {
     return res.status(404).send('No Post with that id!')
 
   } else {
-    const post = await postMessage.findById(id)
-    const updatedPost = await postMessage.findByIdAndUpdate(
+    const post = await PostMessage.findById(id)
+    const updatedPost = await PostMessage.findByIdAndUpdate(
       id, {likeCount: post.likeCount + 1}, {new: true})
 
     res.json(updatedPost)
