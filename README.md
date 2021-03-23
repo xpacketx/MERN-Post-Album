@@ -69,7 +69,7 @@ git add .
 git commit -am "first commit"
 git push heroku master
 
-# Go to 'client/api/index.js' and replace http://localhost:5000 with 'url' provided by Heroku API
+# Go to 'client/api/index.js' and replace 'http://localhost:5000/api/posts' with 'url' provided by Heroku API
 ````
 
 ##### #Netlify
