@@ -18,11 +18,14 @@ Here is a working live demo : https://loving-borg-cf9992.netlify.app
 
 ### Built With
 ***
-* [MongoDB](https://www.mongodb.com) - a cross-platform document-oriented database. 
-* [Express.js](https://expressjs.com/) - a back end web application framework for Node.js.
 * [React](https://reactjs.org/docs/getting-started.html) - a popular JS frontend library for building composable and highly reusable component-based UIs for SPA.
-* [Node.js](https://nodejs.org/en/about/) - a back-end JavaScript runtime environment that runs on the V8 engine for a fast execution of JavaScript code outside a web browser. 
-* [Heroku](https://www.heroku.com/) - a fully managed container-based cloud platform used to deploy and run modern apps.
+* [Redux](https://redux.js.org/) - a standalone JS library for a global state management
+* [Redux-Thunk](https://www.npmjs.com/package/redux-thunk) - a middleware that allows to dispatch asyncronous actions in Redux
+* [MongoDB](https://www.mongodb.com) - a cross-platform document-oriented database. 
+* [Node.js](https://nodejs.org/en/about/) - a back-end JavaScript runtime environment that runs on the V8 engine for a fast execution of JavaScript code outside a web browser.
+* [Express.js](https://expressjs.com/) - a back end web application framework for Node.js.
+* [Heroku](https://www.heroku.com/) - a fully managed container-based cloud platform used to deploy and run you back-end applications.
+* [Netify](https://www.netlify.com/) - builds, deploys and hosts your front-end applications.
 * [Material-UI](https://material-ui.com/) - UI component infrastructure and Material Design components for mobile and desktop React web applications.
 
 ### Usage
