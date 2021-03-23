@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const url = 'https://mern-post-album.herokuapp.com/api/posts'
+const url = 'url provided by Heroku API on deployment'
 
 export const fetchPosts = () => axios.get(url)
 export const createPost = (newPost) => axios.post(url, newPost)
