@@ -7,17 +7,14 @@
 
 ### General Info
 #### `#MERN Post Album`
-***
 > *MERN Post Album app was created using [MERN stack](https://www.mongodb.com/mern-stack) one of the most popular fullstack app technologies.
 > The state management functionality of this app was built combining [Redux](https://redux.js.org/introduction/getting-started) and [React Hooks](https://reactjs.org/docs/hooks-intro.html). 
 The app was created as a media journal to post images and interesting facts about my pet and share this info between our social contacts.* 
 
 ### Demo
-***
 Here is a working live demo : https://loving-borg-cf9992.netlify.app
 
 ### Built With
-***
 * [React](https://reactjs.org/docs/getting-started.html) - a popular JS frontend library for building composable and highly reusable component-based UIs for SPA.
 * [Redux](https://redux.js.org/) - a standalone JS library for a global state management
 * [Redux-Thunk](https://www.npmjs.com/package/redux-thunk) - a middleware that allows to dispatch asyncronous actions in Redux
@@ -29,7 +26,6 @@ Here is a working live demo : https://loving-borg-cf9992.netlify.app
 * [Material-UI](https://material-ui.com/) - UI component infrastructure and Material Design components for mobile and desktop React web applications.
 
 ### Usage
-***
 * To clone and run this application, you need **npm/node** installed, **MongoDB** account for managing database, **Heroku** and **Netlify** accounts for **Node.js** and **React** backend and frontend deployments.
 * Add your DB **CONNECTION_URI** to the **'.env'** file. From your command line:
 
@@ -53,7 +49,6 @@ npm run client
 ````
 
 ### Deployment
-***
 Inside app 'server' create a new file called **'.gitignore'** and add in there unnecessary for uploading **node_modules/**
 Add 1 more file called **'Procfile'** and in there type: **web: npm run start** to make app to start as soon as it's deployed.
 
@@ -89,5 +84,4 @@ npm run build
 ````
 
 ### To-do
-***
 * Add Node.js Authentication with JWT on login.
