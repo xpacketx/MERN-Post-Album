@@ -12,7 +12,7 @@
 The app was created as a media journal to post images and interesting facts about my pet and share this info between our social contacts.* 
 
 ## Screenshot
-
+https://user-images.githubusercontent.com/44978672/112791672-c42da600-90ad-11eb-8cf6-1718d8c49891.jpg
 
 ## Built With
 * [React](https://reactjs.org/docs/getting-started.html) - a popular JS frontend library for building composable and highly reusable component-based UIs for SPA.
