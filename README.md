@@ -1,6 +1,6 @@
 ## Table of Contents
 1. [General Info](#general-info)
-2. [Demo](#demo)
+2. [Screenshot](#screenshot)
 3. [Built With](#built-with)
 4. [Usage](#usage)
 5. [Deployment](#deployment)
@@ -11,8 +11,8 @@
 > The state management functionality of this app was built combining [Redux](https://redux.js.org/introduction/getting-started) and [React Hooks](https://reactjs.org/docs/hooks-intro.html). 
 The app was created as a media journal to post images and interesting facts about my pet and share this info between our social contacts.* 
 
-## Demo
-Here is a working live demo : https://loving-borg-cf9992.netlify.app
+## Screenshot
+
 
 ## Built With
 * [React](https://reactjs.org/docs/getting-started.html) - a popular JS frontend library for building composable and highly reusable component-based UIs for SPA.
